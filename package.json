@@ -1,0 +1,28 @@
+{
+  "name": "js-studies",
+  "author": "AlexandreFPGoncalves",
+  "version": "1.0.0",
+  "description": "Examples of JavaScript code files written during multiple academies/bootcamps/courses.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prettier": "prettier --write . --loglevel warn"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlexandreFPGoncalves/JS-Studies.git"
+  },
+  "keywords": [
+    "javascript",
+    "ES6",
+    "Studies"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AlexandreFPGoncalves/JS-Studies/issues"
+  },
+  "homepage": "https://github.com/AlexandreFPGoncalves/JS-Studies#readme",
+  "devDependencies": {
+    "prettier": "^2.8.8"
+  }
+}
