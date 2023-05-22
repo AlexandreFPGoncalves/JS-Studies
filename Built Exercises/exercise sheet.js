@@ -137,3 +137,21 @@
   ];
 
   console.log('My Todo List:', getTodoList(todosArr, true));
+
+  /* With the following Array, create a JS Function with two args, "catsArr" and "nameToFilter"
+  Filter and return a String with the data from your filtered Cat */
+
+  const catsArr = [
+  { name: 'Kuro', fur: 'black', age: 5, personality: 'noble' },
+  { name: 'Shiro', fur: 'White', age: 1, personality: 'scaredy' },
+  { name: 'Shimi', fur: 'Calico', age: 1, personality: 'playful' },
+];
+
+const filterCatsByName = (catsArr, nameToFilter) => {
+  let copyArr = [...catsArr];
+  const [filteredCat] = copyArr.filter((cat) => cat.name === nameToFilter);
+
+  return `The first cat in the system who's name is ${filteredCat.name} is a ${filteredCat.fur} kitty around ${filteredCat.age} years old he has a ${filteredCat.personality} personality!`;
+};
+
+console.log(filterCatsByName(catsArr, 'Kuro'));
