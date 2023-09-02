@@ -4,24 +4,6 @@
     <h3 align="center">JS-Studies</h3>
 </div>
 
-<details>
-  <summary>Table of Contents</summary>
-  <ol>
-    <li>
-      <a href="#about-the-project">About The Project</a>
-    </li>
-    <li>
-      <a href="#getting-started">Getting Started</a>
-      <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-      </ul>
-    </li>
-    <li><a href="#courses-studied">Courses Studied</a></li>
-    <li><a href="#license">License</a></li>
-    <li><a href="#contact">Contact</a></li>
-  </ol>
-</details>
-
 ## About The Project
 
 Examples of JavaScript code files written during multiple academies/bootcamps/courses. These are mainly chunks of single use functions or learning blocks full of commentaries.
@@ -38,7 +20,7 @@ Have the <b>latest LTS</b> npm version installed on your machine from this [webs
    ```
 2. Run desired file with node
    ```sh
-   node studies.js
+   node study.js
    ```
 
 ## Courses Studied
