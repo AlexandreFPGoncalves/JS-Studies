@@ -261,3 +261,19 @@ const stringStartsWith = (string, validator) => {
 };
 
 console.log(stringStartsWith('Javascript', 'test'));
+
+/*  Challenge 14:
+    This JavaScript function checks if a param has already happened compared to today. */
+
+const today = new Date();
+const birthday = new Date("2023-04-04");
+
+const checkIfBirthdayHasYetToCome = (birthday) => {
+  if (birthday.setHours(0, 0, 0, 0) <= today.setHours(0, 0, 0, 0)) {
+    return console.log('Alex already had his birthday this year...');
+  } else {
+    console.log('Alex is yet to be a birthday boy this year!');
+  }
+};
+
+checkIfBirthdayHasYetToCome(birthday);
